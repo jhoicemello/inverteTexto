@@ -1,0 +1,32 @@
+body { 
+    overflow-x: hidden;
+    box-sizing: content-box;
+    word-break: break-all;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#texto {
+    width:100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    
+}
+
+button {
+    
+}
+
+.textoInvertido {
+    padding: 0;
+    
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    min-height: 150px;
+}
